@@ -3,4 +3,5 @@
 для нахождения больших звёзд во вселенной
 
 #pip install requests
+
 #pip install BeautifulSoup4
