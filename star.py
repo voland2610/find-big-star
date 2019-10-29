@@ -8,7 +8,7 @@ headers = {"User-Agent": 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.3
 
 
 url = "http://light-science.ru/kosmos/vselennaya/top-10-samyh-bolshih-zvezd-vo-vselennoj.html"
-response = requests.get(url, headers=headers)
+response = requests.get(url, headers=headers) # для обхода на проверку бота (чтобы он возвращал 200 запрос)
 
 html = response.text
 soup = BeautifulSoup(html, "html.parser")
